@@ -1,9 +1,8 @@
 class MyError extends Error {
-    constructor(message, errorcode) {
-      super(message);
-      this.errorcode = errorcode;
-    }
+  constructor(message, errorcode) {
+    super(message);
+    this.errorcode = errorcode;
   }
-  
-  module.exports = MyError;
-  
+}
+
+module.exports = MyError;

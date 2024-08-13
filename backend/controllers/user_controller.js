@@ -3,14 +3,14 @@ const User = require("../model/user");
 const ALL_USERS = [
   {
     id: "u1",
-    name: "abhi",
-    email: "abhi@picpot.com",
-    password: "abhi123",
+    name: "Abi",
+    email: "abi@picpot.com",
+    password: "abi123",
   },
 
   {
     id: "u2",
-    name: "sharma",
+    name: "Sharma",
     email: "sharma@picpot.com",
     password: "sharma123",
   },
